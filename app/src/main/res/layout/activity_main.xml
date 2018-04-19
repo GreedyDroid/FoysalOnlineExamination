@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.foysal.onlineexamination.MainActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Teacher"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="200sp"
+        android:paddingLeft="20dp"
+        android:padding="2sp"
+        android:onClick="teacher"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingLeft="20sp"
+        android:padding="2sp"
+        android:onClick="student"
+        />
+
+</LinearLayout>

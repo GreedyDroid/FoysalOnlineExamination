@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "786366564825",
+    "firebase_url": "https://online-exam-fef2d.firebaseio.com",
+    "project_id": "online-exam-fef2d",
+    "storage_bucket": "online-exam-fef2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786366564825:android:edb92d7c9aa4008d",
+        "android_client_info": {
+          "package_name": "com.example.foysal.online_exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786366564825-o3c34s3s88dhgf4bmadssjccemg9js79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVoPltsT4xi6PVexhyGDS29_9yY3YLOFI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786366564825:android:67659f4593c911f8",
+        "android_client_info": {
+          "package_name": "com.example.foysal.onlineexamination"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786366564825-o3c34s3s88dhgf4bmadssjccemg9js79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVoPltsT4xi6PVexhyGDS29_9yY3YLOFI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

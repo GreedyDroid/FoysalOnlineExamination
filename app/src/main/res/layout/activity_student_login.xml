@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.foysal.onlineexamination.student_login">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#ffffff"
+        android:alpha=".8">
+    </View>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        />
+    <EditText
+        android:id="@+id/emailstuLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your mail:"
+        />
+    <EditText
+        android:id="@+id/passstuLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/loginstuLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="login"
+        android:onClick="login_student"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_marginTop="10sp"
+        android:id="@+id/movetoReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Don't have an Account? Registration "
+        android:onClick="moveToReg"
+        />
+</LinearLayout>
